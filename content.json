@@ -1,0 +1,24 @@
+{
+  "monday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "mon first cell"
+    }
+  },
+  "tuesday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "tue first cell"
+    }
+  }
+}
