@@ -1,4 +1,35 @@
 {
+  "sunday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "Blah"
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
   "monday": {
     "1": {
       "function": "date",
@@ -7,7 +38,27 @@
     "2": {
       "function": "info",
       "bgcolor": "white",
-      "text": "mon first cell"
+      "text": "Some Text"
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
     }
   },
   "tuesday": {
@@ -18,7 +69,151 @@
     "2": {
       "function": "info",
       "bgcolor": "white",
-      "text": "tue first cell"
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "wednesday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "thursday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": "blah"
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "friday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": "blah"
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "saturday": {
+    "1": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "blah"
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "6": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": "Blah"
     }
   }
 }

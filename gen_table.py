@@ -1,11 +1,15 @@
 import json
-import pendulum
 
 
 class gen_table:
     content_file = ''
     days = []
-    table_body = ''
+    table_row1 = []
+    table_row2 = []
+    table_row3 = []
+    table_row4 = []
+    table_row5 = []
+    table_row6 = []
     content = {}
     table_data = {}
 
@@ -13,6 +17,8 @@ class gen_table:
         self.content_file = content_file
         self.days = days
         self.build_table_data()
+        self.build_table_body()
+        self.display_table()
 
     @staticmethod
     def save_json(data, file_name):
@@ -45,5 +51,67 @@ class gen_table:
                             self.table_data[key].append({'text': text})
                 elif day_data[1]['function'] == 'info':
                     self.table_data[key].append({'text': day_data[1]['text']})
-                self.table_data[key].append({'bgcolor':  day_data[1]['bgcolor']})
-        print(self.table_data)
+                self.table_data[key].append({'bgcolor': day_data[1]['bgcolor']})
+
+    def build_table_body(self):
+        for table_data in self.table_data.items():
+            if ":1" in table_data[0]:
+                self.table_row1.append(self.build_td(table_data[1]))
+            elif ":2" in table_data[0]:
+                self.table_row2.append(self.build_td(table_data[1]))
+            elif ":3" in table_data[0]:
+                self.table_row3.append(self.build_td(table_data[1]))
+            elif ":4" in table_data[0]:
+                self.table_row4.append(self.build_td(table_data[1]))
+            elif ":5" in table_data[0]:
+                self.table_row5.append(self.build_td(table_data[1]))
+            elif ":6" in table_data[0]:
+                self.table_row6.append(self.build_td(table_data[1]))
+
+    def build_row(self, table_row):
+        row = ''
+        for cell in table_row:
+            row = row + cell
+        return row
+
+    def build_td(self, td_data):
+        cell = "<td bgcolor=" + td_data[1]['bgcolor'] + ">"
+        cell = cell + td_data[0]['text']
+        cell = cell + "</td>"
+        return cell
+
+    def display_table(self):
+        print("<table border=1 width=100%>")
+
+        print("<tr>")
+        for table_row in self.table_row1:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("<tr>")
+        for table_row in self.table_row2:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("<tr>")
+        for table_row in self.table_row3:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("<tr>")
+        for table_row in self.table_row4:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("<tr>")
+        for table_row in self.table_row5:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("<tr>")
+        for table_row in self.table_row6:
+            print(self.build_row(table_row))
+        print("</tr>")
+
+        print("</table>")
+
