@@ -4,12 +4,12 @@ import json
 class gen_table:
     content_file = ''
     days = []
+    table_row0 = []
     table_row1 = []
     table_row2 = []
     table_row3 = []
     table_row4 = []
     table_row5 = []
-    table_row6 = []
     content = {}
     table_data = {}
 
@@ -55,7 +55,9 @@ class gen_table:
 
     def build_table_body(self):
         for table_data in self.table_data.items():
-            if ":1" in table_data[0]:
+            if ":0" in table_data[0]:
+                self.table_row0.append(self.build_td(table_data[1]))
+            elif ":1" in table_data[0]:
                 self.table_row1.append(self.build_td(table_data[1]))
             elif ":2" in table_data[0]:
                 self.table_row2.append(self.build_td(table_data[1]))
@@ -65,8 +67,6 @@ class gen_table:
                 self.table_row4.append(self.build_td(table_data[1]))
             elif ":5" in table_data[0]:
                 self.table_row5.append(self.build_td(table_data[1]))
-            elif ":6" in table_data[0]:
-                self.table_row6.append(self.build_td(table_data[1]))
 
     def build_row(self, table_row):
         row = ''
@@ -82,6 +82,11 @@ class gen_table:
 
     def display_table(self):
         print("<table border=1 width=100%>")
+
+        print("<tr>")
+        for table_row in self.table_row0:
+            print(self.build_row(table_row))
+        print("</tr>")
 
         print("<tr>")
         for table_row in self.table_row1:
@@ -105,11 +110,6 @@ class gen_table:
 
         print("<tr>")
         for table_row in self.table_row5:
-            print(self.build_row(table_row))
-        print("</tr>")
-
-        print("<tr>")
-        for table_row in self.table_row6:
             print(self.build_row(table_row))
         print("</tr>")
 
