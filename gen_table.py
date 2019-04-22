@@ -84,31 +84,37 @@ class gen_table:
         print("<table border=1 width=100%>")
 
         print("<tr>")
+        print("<td></td>")
         for table_row in self.table_row0:
             print(self.build_row(table_row))
         print("</tr>")
 
         print("<tr>")
+        print("<td>1</td>")
         for table_row in self.table_row1:
             print(self.build_row(table_row))
         print("</tr>")
 
         print("<tr>")
+        print("<td>2</td>")
         for table_row in self.table_row2:
             print(self.build_row(table_row))
         print("</tr>")
 
         print("<tr>")
+        print("<td>3</td>")
         for table_row in self.table_row3:
             print(self.build_row(table_row))
         print("</tr>")
 
         print("<tr>")
+        print("<td>4</td>")
         for table_row in self.table_row4:
             print(self.build_row(table_row))
         print("</tr>")
 
         print("<tr>")
+        print("<td>5</td>")
         for table_row in self.table_row5:
             print(self.build_row(table_row))
         print("</tr>")
