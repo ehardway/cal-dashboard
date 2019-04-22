@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3.7
 import pendulum
 
 from gen_table import *
