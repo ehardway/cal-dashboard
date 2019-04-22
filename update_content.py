@@ -1,5 +1,5 @@
+#!/usr/local/bin/python3.7
 import json
-
 
 class update_content:
     content_file = ''
