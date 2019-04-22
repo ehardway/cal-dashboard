@@ -75,7 +75,7 @@ class gen_table:
         return row
 
     def build_td(self, td_data):
-        cell = "<td bgcolor=" + td_data[1]['bgcolor'] + ">"
+        cell = "<td bgcolor=" + td_data[1]['bgcolor'] + " align=center>"
         cell = cell + td_data[0]['text']
         cell = cell + "</td>"
         return cell
@@ -83,38 +83,38 @@ class gen_table:
     def display_table(self):
         print("<table border=1 width=100%>")
 
-        print("<tr height=25%>")
-        print("<td></td>")
+        print("<tr>")
+        print("<td height=75 align=center></td>")
         for table_row in self.table_row0:
             print(self.build_row(table_row))
         print("</tr>")
 
-        print("<tr height=25%>")
-        print("<td>1</td>")
+        print("<tr>")
+        print("<td height=75 align=center>1</td>")
         for table_row in self.table_row1:
             print(self.build_row(table_row))
         print("</tr>")
 
-        print("<tr height=25%>")
-        print("<td>2</td>")
+        print("<tr>")
+        print("<td height=75 align=center>2</td>")
         for table_row in self.table_row2:
             print(self.build_row(table_row))
         print("</tr>")
 
-        print("<tr height=25%>")
-        print("<td>3</td>")
+        print("<tr>")
+        print("<td height=75 align=center>3</td>")
         for table_row in self.table_row3:
             print(self.build_row(table_row))
         print("</tr>")
 
-        print("<tr height=25%>")
-        print("<td>4</td>")
+        print("<tr>")
+        print("<td height=75 align=center>4</td>")
         for table_row in self.table_row4:
             print(self.build_row(table_row))
         print("</tr>")
 
-        print("<tr height=25%>")
-        print("<td>5</td>")
+        print("<tr>")
+        print("<td height=75 align=center>5</td>")
         for table_row in self.table_row5:
             print(self.build_row(table_row))
         print("</tr>")
