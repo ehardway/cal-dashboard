@@ -13,9 +13,19 @@ class update_content:
         self.apply_changes()
 
     def apply_changes(self):
+        skip = []
         for changes in self.changes.items():
-            print(changes[0])
-    # content.update_content('sunday', 2, 'text', 'banana')
+            key = changes[0]
+            value = changes[1]
+            if '-' in key:
+                day, row, ckey = key.split('-', 3)
+                skip_key = day + "-" + row
+                if 'no_change' in value:
+                    if skip_key not in skip:
+                        skip.append(skip_key)
+            if skip_key not in skip:
+                self.update_content(day, row, key, value)
+        self.save_json(self.content, self.content_file)
 
     def display_content(self):
         print(self.content)
