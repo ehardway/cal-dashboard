@@ -1,13 +1,18 @@
 {
   "sunday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
       "text": "Blah"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
     },
     "3": {
       "function": "info",
@@ -20,25 +25,25 @@
       "text": ""
     },
     "5": {
-      "function": "info",
-      "bgcolor": "yellow",
-      "text": ""
-    },
-    "6": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "monday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
       "text": "Some Text"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
     },
     "3": {
       "function": "info",
@@ -51,24 +56,24 @@
       "text": ""
     },
     "5": {
-      "function": "info",
-      "bgcolor": "yellow",
-      "text": ""
-    },
-    "6": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "tuesday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
       "text": ""
     },
     "3": {
@@ -82,24 +87,24 @@
       "text": ""
     },
     "5": {
-      "function": "info",
-      "bgcolor": "yellow",
-      "text": ""
-    },
-    "6": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "wednesday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
       "text": ""
     },
     "3": {
@@ -113,55 +118,55 @@
       "text": ""
     },
     "5": {
-      "function": "info",
-      "bgcolor": "yellow",
-      "text": ""
-    },
-    "6": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "thursday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
       "text": ""
     },
     "3": {
       "function": "info",
       "bgcolor": "yellow",
-      "text": ""
+      "text": "blah"
     },
     "4": {
       "function": "info",
       "bgcolor": "yellow",
-      "text": "blah"
-    },
-    "5": {
-      "function": "info",
-      "bgcolor": "yellow",
       "text": ""
     },
-    "6": {
+    "5": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "friday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
       "text": ""
     },
     "3": {
@@ -172,28 +177,28 @@
     "4": {
       "function": "info",
       "bgcolor": "yellow",
-      "text": ""
-    },
-    "5": {
-      "function": "info",
-      "bgcolor": "yellow",
       "text": "blah"
     },
-    "6": {
+    "5": {
       "function": "info",
       "bgcolor": "yellow",
       "text": ""
     }
   },
   "saturday": {
-    "1": {
+    "0": {
       "function": "date",
       "bgcolor": "grey"
     },
-    "2": {
+    "1": {
       "function": "info",
       "bgcolor": "white",
       "text": "blah"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
     },
     "3": {
       "function": "info",
@@ -206,11 +211,6 @@
       "text": ""
     },
     "5": {
-      "function": "info",
-      "bgcolor": "yellow",
-      "text": ""
-    },
-    "6": {
       "function": "info",
       "bgcolor": "yellow",
       "text": "Blah"

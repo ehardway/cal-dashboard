@@ -13,8 +13,9 @@ class update_content:
         self.apply_changes()
 
     def apply_changes(self):
-	for changes in self.changes.items():
-	    print(changes)
+        for changes in self.changes.items():
+            print(changes[0])
+    # content.update_content('sunday', 2, 'text', 'banana')
 
     def display_content(self):
         print(self.content)
@@ -40,6 +41,7 @@ class update_content:
         except (FileExistsError, IOError) as err:
             print(err)
 
-content = update_content('content.json','tmp/changes.json')
-#content.update_content('sunday', 2, 'text', 'banana')
-#content.display_content()
+
+content = update_content('content.json', 'tmp/changes.json')
+# content.update_content('sunday', 2, 'text', 'banana')
+# content.display_content()
