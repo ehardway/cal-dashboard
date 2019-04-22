@@ -24,7 +24,7 @@ class update_content:
                     if skip_key not in skip:
                         skip.append(skip_key)
             if skip_key not in skip:
-                self.update_content(day, row, key, value)
+                self.update_content(day, row, ckey, value)
         self.save_json(self.content, self.content_file)
 
     def display_content(self):

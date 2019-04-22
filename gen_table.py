@@ -52,6 +52,8 @@ class gen_table:
                 elif day_data[1]['function'] == 'info':
                     self.table_data[key].append({'text': day_data[1]['text']})
                 self.table_data[key].append({'bgcolor': day_data[1]['bgcolor']})
+        print(self.table_data)
+        exit(0)
 
     def build_table_body(self):
         for table_data in self.table_data.items():
