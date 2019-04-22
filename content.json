@@ -1,1 +1,157 @@
-{"sunday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": "Blah"}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "yellow", "text": ""}, "4": {"function": "info", "bgcolor": "white", "text": "Eric"}, "5": {"function": "info", "bgcolor": "white", "text": "Fixed it"}}, "monday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": ""}, "2": {"function": "info", "bgcolor": "white", "text": ""}, "3": {"function": "info", "bgcolor": "white", "text": ""}, "4": {"function": "info", "bgcolor": "white", "text": ""}, "5": {"function": "info", "bgcolor": "white", "text": ""}}, "tuesday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "red", "text": "Testing"}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "yellow", "text": ""}, "4": {"function": "info", "bgcolor": "white", "text": ""}, "5": {"function": "info", "bgcolor": "yellow", "text": ""}}, "wednesday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": ""}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "yellow", "text": ""}, "4": {"function": "info", "bgcolor": "yellow", "text": ""}, "5": {"function": "info", "bgcolor": "yellow", "text": ""}}, "thursday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": "Tommy"}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "yellow", "text": "blah"}, "4": {"function": "info", "bgcolor": "yellow", "text": ""}, "5": {"function": "info", "bgcolor": "yellow", "text": ""}}, "friday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": "Eric"}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "blue", "text": "Next Level"}, "4": {"function": "info", "bgcolor": "yellow", "text": "blah"}, "5": {"function": "info", "bgcolor": "grey", "text": "Next Level"}}, "saturday": {"0": {"function": "date", "bgcolor": "grey"}, "1": {"function": "info", "bgcolor": "white", "text": "blah"}, "2": {"function": "info", "bgcolor": "yellow", "text": ""}, "3": {"function": "info", "bgcolor": "yellow", "text": ""}, "4": {"function": "info", "bgcolor": "yellow", "text": ""}, "5": {"function": "info", "bgcolor": "yellow", "text": "Blah"}}}
+{
+  "monday": {
+    "0": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "1": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    }
+  },
+  "tuesday": {
+    "0": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "1": {
+      "function": "info",
+      "bgcolor": "red",
+      "text": "Testing"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "wednesday": {
+    "0": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "1": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": ""
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "thursday": {
+    "0": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "1": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "Tommy"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": "blah"
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    }
+  },
+  "friday": {
+    "0": {
+      "function": "date",
+      "bgcolor": "grey"
+    },
+    "1": {
+      "function": "info",
+      "bgcolor": "white",
+      "text": "Eric"
+    },
+    "2": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": ""
+    },
+    "3": {
+      "function": "info",
+      "bgcolor": "blue",
+      "text": "Next Level"
+    },
+    "4": {
+      "function": "info",
+      "bgcolor": "yellow",
+      "text": "blah"
+    },
+    "5": {
+      "function": "info",
+      "bgcolor": "grey",
+      "text": "Next Level"
+    }
+  }
+}
